@@ -1,0 +1,18 @@
+{
+  "name": "hodor",
+  "version": "1.0.0",
+  "private": true,
+  "author": "User <user@example.com>",
+  "description": "[1] greetings [2]told you his name [3]when you say team or guys [4]told you whos better whos worst",
+  "dependencies": {
+    "hubot": "^3.2.0",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-help": "^1.0.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-slack": "^4.6.0"
+  },
+  "engines": {
+    "node": "> 4.0.0"
+  }
+}

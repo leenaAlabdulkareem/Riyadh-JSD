@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   
+</head>
+<body>
+     
+            <div class="res-container"></div>
+     
+
+    <div class="formcontainer">
+        <input type="text" name="name" placeholder="name of restuarant">
+        <input type="text" name="location" placeholder="location">
+
+        <button class="submit" >submit </button>
+    </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCBaFX5wmzkc1-aWO497MLbUlm0KPAZ_y4",
+            authDomain: "firstone-1673b.firebaseapp.com",
+            databaseURL: "https://firstone-1673b.firebaseio.com",
+            projectId: "firstone-1673b",
+            storageBucket: "firstone-1673b.appspot.com",
+            messagingSenderId: "247644791952"
+          };
+          firebase.initializeApp(config);
+        </script>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>

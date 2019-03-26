@@ -10,7 +10,7 @@
 
 
  $(function(){ // must always be here if you use Jquery 
-    let db = firebase.firestore().collection('restaurants'/** same name you creat it in firebase */)
+    let db = firebase.firestore().collection('restaurants'/** same name you create it in firebase */)
     let resList = $('.res-container')
 
     db.get()
@@ -77,3 +77,5 @@
     })
 
  })
+
+ 

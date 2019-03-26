@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Notes App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="n.js"></script>
+</head>
+<body>
+         
+    <div class="res-container"></div>
+     
+
+    <div class="formcontainer">
+        <input type="text" name="title" placeholder="title">
+        <input type="text" name="Note" placeholder="your note">
+
+        <button class="submit" >submit </button>
+    </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-app.js"></script>
+
+       
+        <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-firestore.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBhu-3Vbxxo9LiEvED-x7ErKxBEZIzlpeg",
+            authDomain: "notes-42a6b.firebaseapp.com",
+            databaseURL: "https://notes-42a6b.firebaseio.com",
+            projectId: "notes-42a6b",
+            storageBucket: "notes-42a6b.appspot.com",
+            messagingSenderId: "471974223990"
+          };
+          firebase.initializeApp(config);
+        </script>
+    
+    <script src="n.js"></script>
+
+</body>
+</html>

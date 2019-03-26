@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.imgur.com/mIKtXGQ.jpg');
+      background-size: cover;
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+    }
+      
+    img {
+      margin:60px 0px 0px 0px ;
+      border: 3px solid black ;
+      border-radius: 180px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      button{
+        background: grey;
+      
+        }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/CJZJixyt.jpg?1">
+    <h1>Notes</h1>
+   
+    <ul>
+      <li><button>NewNote</button></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Note</h2>
+    
+  </article>
+  <article>
+    <h2>Where to find me </h2>
+    <p>Follow me on <a href="https://www.tvtime.com/en">TV Time</a> @Leenakr </p>
+    <p>Follow me on <a href="https://twitter.com">Twitter</a> @LAlabdulkareem </p>
+    
+  </article>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+ 
+</body>

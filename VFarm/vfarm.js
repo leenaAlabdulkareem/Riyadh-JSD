@@ -107,4 +107,5 @@ class cat extends animal{
 
                 
             
+        cd studentapp
         
